@@ -1,5 +1,5 @@
 import { Inngest } from "inngest";
-import User from "../models/user.model.js"; // ✅ make sure your User model is imported
+import User from "../models/user.js"; // ✅ make sure your User model is imported
 
 export const inngest = new Inngest({ id: "my-app" });
 
